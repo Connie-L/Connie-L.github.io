@@ -103,18 +103,19 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #000000 15%, #9a0000 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #000000 15%, #9a0000 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #000000 15%, #9a0000 85%);
-		background-image: url("images/overlay.png"), linear-gradient(10deg, #9a0000 10%, #000000 85%);
+		background-image: url("images/border.png"), linear-gradient(10deg, #5D0F11 10%, #000000 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
+			-moz-animation: opacity 3s ease !important;
+			-webkit-animation: opacity 3s ease !important;
+			-ms-animation: opacity 3s ease !important;
 			animation: none !important;
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
+			
 		}
 
 /* Type */
@@ -2647,7 +2648,7 @@ input, select, textarea {
 			header.major h2:after {
 				display: block;
 				content: '';
-				width: 3.25em;
+				width: 5em;
 				height: 2px;
 				margin: 0.7em 0 1em 0;
 				border-radius: 2px;
@@ -3546,10 +3547,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #000000, #9a0000, #9a0000);
-			background-image: -webkit-linear-gradient(90deg, #000000, #9a0000, #9a0000);
-			background-image: -ms-linear-gradient(90deg, #000000, #9a0000, #9a0000);
-			background-image: linear-gradient(90deg, #000000, #9a0000, #9a0000);
+			background-image: -moz-linear-gradient(90deg, #9a0000, #9a0000, #9a0000);
+			background-image: -webkit-linear-gradient(90deg, #9a0000, #9a0000, #9a0000);
+			background-image: -ms-linear-gradient(90deg, #9a0000, #9a0000, #9a0000);
+			background-image: linear-gradient(90deg, #5D0F11, #5D0F11, #000000);
 		}
 
 		#main table tbody tr {
